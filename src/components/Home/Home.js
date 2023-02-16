@@ -31,13 +31,6 @@ const Home = () => {
                 </div>
             </main>
 
-            <section style={{ margin: '50px' }} className="d-flex justify-content-center">
-                <div className='section-header text-center mb-5'>
-                    <h1>Keep Your Simple Tasks Simple</h1>
-                    <p>Smallpdf is the first and only PDF software you’ll love. We have all the tools<br /> you’ll need to start, manage, and finish your work with digital documents.</p>
-                </div>
-            </section>
-
             <main style={{ height: '600px' }} className="row d-flex align-items-center">
                 <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
                     <h1 style={{ color: '#3A4256' }}>Work Directly on Your Files</h1>
