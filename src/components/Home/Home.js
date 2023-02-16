@@ -1,5 +1,10 @@
 import React from 'react';
 import firstImg from '../../images/small-1.svg'
+import secondImg from '../../images/small-2.svg'
+import thirdImg from '../../images/small-3.svg'
+import fourthImg from '../../images/small-4.svg'
+import fifthImg from '../../images/small-5.svg'
+import sixthImg from '../../images/small-6.svg'
 
 const Home = () => {
     return (
@@ -25,6 +30,73 @@ const Home = () => {
                     <img src={firstImg} alt="" />
                 </div>
             </main>
+
+            <section style={{ margin: '50px' }} className="d-flex justify-content-center">
+                <div className='section-header text-center mb-5'>
+                    <h1>Keep Your Simple Tasks Simple</h1>
+                    <p>Smallpdf is the first and only PDF software you’ll love. We have all the tools<br /> you’ll need to start, manage, and finish your work with digital documents.</p>
+                </div>
+            </section>
+
+            <main style={{ height: '600px' }} className="row d-flex align-items-center">
+                <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
+                    <h1 style={{ color: '#3A4256' }}>Work Directly on Your Files</h1>
+                    <p className="text-secondary">Do more than just view PDFs. Highlight and add text, images, shapes, and freehand annotations to your documents. You can connect to 20 other tools to enhance your files further.</p>
+                    <a style={{ margin: '5px' }} className="btn btn-primary">Edit a PDF Now -</a>
+
+                </div>
+                <div className="col-md-6">
+                    <img src={secondImg} alt="" />
+                </div>
+            </main>
+
+
+            <main style={{ height: '600px' }} className="row d-flex align-items-center">
+                <div className="col-md-6">
+                    <img src={thirdImg} alt="" />
+                </div>
+
+                <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
+                    <h1 style={{ color: '#3A4256' }}>Digital Signatures Made Easy</h1>
+                    <p className="text-secondary">Fill in forms, e-sign contracts, and close deals in a few simple steps. You can also request e-signatures and track your document every step of the way.</p>
+                    <a style={{ margin: '5px' }} className="btn btn-primary">Try eSign -</a>
+
+                </div>
+
+            </main>
+
+
+            <main style={{ height: '600px' }} className="row d-flex align-items-center">
+                <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
+                    <h1 style={{ color: '#3A4256' }}>Create the Perfect Document</h1>
+                    <p className="text-secondary">File too big? Compress it. Need a specific format? Convert it. Things getting chaotic? Merge and split files, or remove excess pages. Smallpdf has it all.</p>
+                    <a style={{ margin: '5px' }} className="btn btn-primary">View all PDF tools -</a>
+
+                </div>
+                <div className="col-md-6">
+                    <img src={fourthImg} alt="" />
+                </div>
+            </main>
+
+
+            <main style={{ height: '600px' }} className="row d-flex align-items-center">
+                <div className="col-md-6">
+                    <img src={fifthImg} alt="" />
+                </div>
+
+                <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
+                    <h1 style={{ color: '#3A4256' }}>Manage Documents—All in One Place</h1>
+                    <p className="text-secondary">No more working across multiple apps! Save time by storing, managing, and sharing files across devices—straight from our web platform.</p>
+                    <a style={{ margin: '5px' }} className="btn btn-primary">Set Free Trial -</a>
+
+                </div>
+
+            </main>
+
+            <section style={{ margin: '50px' }} className="d-flex justify-content-center">
+                <img src={sixthImg} alt="" />
+            </section>
+
         </>
     );
 };
