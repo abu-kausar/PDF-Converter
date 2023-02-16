@@ -1,0 +1,22 @@
+.vertically-firstHalf{
+    width: 80%;
+    height: 180px;
+    margin: 1% 8% 1% 8%;
+    padding: 2%;
+    border: 1px solid rgb(228, 215, 215);
+    border-radius: 15px;
+    box-shadow: 4px 12px 18px rgb(126, 119, 119);
+}
+
+.vertically-secondHalf{
+    margin-top: 50px; 
+    display: flex;
+}
+
+.quarter{
+    margin-left: 40px;
+}
+
+.blueText{
+    color: rgb(51, 51, 219);
+}
