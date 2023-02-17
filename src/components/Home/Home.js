@@ -7,6 +7,8 @@ import fourthImg from '../../images/small-4.svg'
 import fifthImg from '../../images/small-5.svg'
 import sixthImg from '../../images/small-6.svg'
 
+
+
 const Home = () => {
     return (
         <>
