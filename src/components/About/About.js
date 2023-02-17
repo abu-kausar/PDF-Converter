@@ -11,7 +11,7 @@ const About = () => {
                 <hr />
                 <p className="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis reprehenderit numquam nulla, vitae laudantium maiores iusto consequatur facere dolorem fugit aut delectus quas! Iste iusto officiis est at dignissimos nisi!</p>
                 <Link to="/tools">
-                    <button className="btn btn-primary">Start Converting</button>
+                    <button className="btn btn-secondary">Start Converting</button>
                 </Link>
                 
             </div>
