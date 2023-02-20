@@ -39,7 +39,9 @@ const Home = () => {
                 <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
                     <h1 style={{ color: '#3A4256' }}>Work Directly on Your Files</h1>
                     <p className="text-secondary">Do more than just view PDFs. Highlight and add text, images, shapes, and freehand annotations to your documents. You can connect to 20 other tools to enhance your files further.</p>
-                    <a style={{ margin: '5px' }} className="btn btn-secondary">Convert Now</a>
+                    <Link to="/tools">
+                        <button style={{ margin: '5px' }} className="btn btn-secondary">Convert Now</button>
+                    </Link>
 
                 </div>
                 <div className="col-md-6">
