@@ -58,8 +58,9 @@ const Home = () => {
                 <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
                     <h1 style={{ color: '#3A4256' }}>Digital Signatures Made Easy</h1>
                     <p className="text-secondary">Fill in forms, e-sign contracts, and close deals in a few simple steps. You can also request e-signatures and track your document every step of the way.</p>
-                    <a style={{ margin: '5px' }} className="btn btn-secondary">Try Now</a>
-
+                    <Link to="/tools">
+                        <button style={{ margin: '5px' }} className="btn btn-secondary">Try Now</button>
+                    </Link>
                 </div>
 
             </main>
@@ -69,8 +70,9 @@ const Home = () => {
                 <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
                     <h1 style={{ color: '#3A4256' }}>Create the Perfect Document</h1>
                     <p className="text-secondary">File too big? Compress it. Need a specific format? Convert it. Things getting chaotic? Merge and split files, or remove excess pages. Smallpdf has it all.</p>
-                    <a style={{ margin: '5px' }} className="btn btn-secondary">View all PDF tools</a>
-
+                    <Link to="/tools">
+                        <button style={{ margin: '5px' }} className="btn btn-secondary">View all PDF tools</button>
+                    </Link>
                 </div>
                 <div className="col-md-6">
                     <img src={fourthImg} alt="" />
@@ -86,16 +88,11 @@ const Home = () => {
                 <div style={{ marginRigt: '10px' }} className="col-md-4 offset-md-1">
                     <h1 style={{ color: '#3A4256' }}>Manage Documents—All in One Place</h1>
                     <p className="text-secondary">No more working across multiple apps! Save time by storing, managing, and sharing files across devices—straight from our web platform.</p>
-                    <a style={{ margin: '5px' }} className="btn btn-secondary">Try Now</a>
-
+                    <Link to="/tools">
+                        <button style={{ margin: '5px' }} className="btn btn-secondary">Try Now</button>
+                    </Link>
                 </div>
-
             </main>
-
-            <section style={{ margin: '50px' }} className="d-flex justify-content-center">
-                <img src={sixthImg} alt="" />
-            </section>
-
         </>
     );
 };
